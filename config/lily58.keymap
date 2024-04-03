@@ -42,10 +42,10 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &kp PRINTSCREEN  &trans          &trans           &kp DELETE     &kp BACKSPACE  &trans
-&kp TILDE   &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                          &trans           &kp UP_ARROW    &trans           &kp PAGE_UP    &none          &none
-&kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                       &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &none          &kp TILDE
-&trans      &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans           &kp HOME        &kp END          &kp LBRC       &kp RBRC       &kp PIPE
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &kp PRINTSCREEN  &trans          &trans          &kp DELETE       &kp BACKSPACE  &trans
+&kp TILDE   &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                          &trans           &none           &kp UP_ARROW    &none            &kp PAGE_UP    &none
+&kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                       &none            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &kp TILDE
+&trans      &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans           &kp HOME        &kp END         &kp LBRC         &kp RBRC       &kp PIPE
                                         &trans        &trans        &trans        &trans    &trans  &trans           &trans          &trans
             >;
 
